@@ -1,0 +1,7 @@
+/public/*
+!/public/.keep
+
+/resources/*
+!/resources/.keep
+
+.DS_Store

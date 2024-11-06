@@ -1,0 +1,3 @@
+# Blog
+
+Build with Hugo.
