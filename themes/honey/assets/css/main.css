@@ -1,9 +1,46 @@
+:root {
+  --border-radius: 0.5rem;
+  --bg-color: rgb(255, 255, 255);
+  --body-color: rgb(15, 23, 42);
+  --body-font: "Inter", sans-serif;
+  --body-font-size: 1rem;
+  --body-line-height: 1.5rem;
+}
+
 body {
-  color: #222;
-  font-family: sans-serif;
-  line-height: 1.5;
-  margin: 1rem;
+  color: var(--body-color);
+  background-color: var(--bg-color);
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  margin: 1rem auto;
   max-width: 768px;
+}
+
+pre {
+  overflow: scroll;
+  padding: 1rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-size: 0.875rem;
+}
+
+p code {
+  font-weight: 600;
+}
+
+h1 {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+h2 {
+  margin: 2rem 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+h3 {
+  margin: 2rem 0;
+  font-weight: 500;
 }
 
 header {
@@ -17,6 +54,15 @@ footer {
 }
 
 a {
-  color: #00e;
-  text-decoration: none;
+  color: #0369a1;
+  text-decoration: underline;
+}
+
+.page-meta {
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.page-meta a, .page-meta time {
+  font-weight: 500;
 }

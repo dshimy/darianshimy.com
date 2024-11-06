@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://darianshimy.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Darian's Blog"
 theme = 'honey'
 
 [params]
